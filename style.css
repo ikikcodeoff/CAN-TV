@@ -1,0 +1,143 @@
+/* Reset basique */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #8B181B;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #FFD700; /* doré CAN */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Glassmorphism */
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Live match */
+.live-container iframe {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.match-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.match-info .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.match-info .team img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: 2px solid #FFD700;
+}
+
+/* Prochains matchs */
+#matches .match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#matches .match:hover {
+    transform: scale(1.02);
+}
+
+#matches .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#matches .team img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: 1px solid #FFD700;
+}
+
+#matches .info span {
+    font-weight: bold;
+}
+
+/* Infos et actualités */
+#infos-content p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .match-info {
+        flex-direction: column;
+    }
+    #matches .match {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
