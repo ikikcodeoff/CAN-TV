@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iKikCode TV - Diffuseur CAN 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>iKikCode TV</h1>
+        <nav>
+            <a href="#live">Live</a>
+            <a href="#upcoming">Prochains Matchs</a>
+            <a href="#infos">Infos</a>
+        </nav>
+    </header>
+
+    <section id="live">
+        <h2>Match en direct</h2>
+        <div class="live-container glass">
+            <iframe id="live-iframe" height="480" width="854" allowfullscreen></iframe>
+            <div class="match-info">
+                <div class="team">
+                    <img id="team1-logo" src="" alt="">
+                    <span id="team1-name"></span>
+                    <span id="team1-score"></span>
+                </div>
+                <div class="team">
+                    <img id="team2-logo" src="" alt="">
+                    <span id="team2-name"></span>
+                    <span id="team2-score"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="upcoming">
+        <h2>Prochains Matchs</h2>
+        <div id="matches" class="glass"></div>
+    </section>
+
+    <section id="infos">
+        <h2>Infos et actualités</h2>
+        <div id="infos-content" class="glass"></div>
+    </section>
+
+    <footer>
+        <p>© 2025 IKIKCODE TV - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
