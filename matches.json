@@ -1,15 +1,141 @@
 {
   "live": {
-    "twitch_url": "https://www.twitch.tv/ikikcode_tv",
-    "team1": { "name": "GENOA", "logo": "https://ssl.gstatic.com/onebox/media/sports/logos/85QkdgIOpAt-_EuQ9mKTPg_96x96.png", "score": 1 },
-    "team2": { "name": "INTER MILAN", "logo": "https://ssl.gstatic.com/onebox/media/sports/logos/l2-icwsMhIvsbRw8AwC1yg_96x96.png", "score": 2 }
+    "twitch_url": "https://player.twitch.tv/?channel=ikikcode_tv&parent=localhost&parent=ikikcode-tv.com",
+    "team1": { "name": "GENOA", "score": 1 },
+    "team2": { "name": "INTER MILAN", "score": 2 }
   },
   "upcoming": [
-    { "date": "15/12/2025", "heure": "18:00", "team1": { "name": "Maroc", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg" }, "team2": { "name": "Algérie", "logo": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg" } },
-    { "date": "16/12/2025", "heure": "21:00", "team1": { "name": "Égypte", "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg" }, "team2": { "name": "Tunisie", "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg" } }
-  ],
-  "infos": [
-    "Bienvenue sur IKIKCODE TV ! Suivez tous les matchs de la CAN 2025.",
-    "Restez connectés pour les dernières nouvelles du tournoi."
+    {
+      "date": "2025-12-19",
+      "heure": "14:30 GMT",
+      "team1": { "name": "Borussia Dortmund" },
+      "team2": { "name": "Borussia Mönchengladbach" }
+    },
+    {
+      "date": "2025-12-19",
+      "heure": "15:00 GMT",
+      "team1": { "name": "Valencia" },
+      "team2": { "name": "Mallorca" }
+    },
+    {
+      "date": "2025-12-20",
+      "heure": "07:30 GMT",
+      "team1": { "name": "Newcastle United" },
+      "team2": { "name": "Chelsea" }
+    },
+    {
+      "date": "2025-12-20",
+      "heure": "10:00 GMT",
+      "team1": { "name": "AFC Bournemouth" },
+      "team2": { "name": "Burnley" }
+    },
+    {
+      "date": "2025-12-20",
+      "heure": "10:00 GMT",
+      "team1": { "name": "Brighton & Hove Albion" },
+      "team2": { "name": "Sunderland" }
+    },
+    {
+      "date": "2025-12-20",
+      "heure": "10:00 GMT",
+      "team1": { "name": "Manchester City" },
+      "team2": { "name": "West Ham United" }
+    },
+    {
+      "date": "2025-12-20",
+      "heure": "10:00 GMT",
+      "team1": { "name": "Wolves" },
+      "team2": { "name": "Brentford" }
+    },
+    {
+      "date": "2025-12-20",
+      "heure": "12:30 GMT",
+      "team1": { "name": "Tottenham Hotspur" },
+      "team2": { "name": "Liverpool" }
+    },
+    {
+      "date": "2025-12-20",
+      "heure": "15:00 GMT",
+      "team1": { "name": "Everton" },
+      "team2": { "name": "Arsenal" }
+    },
+    {
+      "date": "2025-12-20",
+      "heure": "15:00 GMT",
+      "team1": { "name": "Leeds United" },
+      "team2": { "name": "Crystal Palace" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "09:30 GMT",
+      "team1": { "name": "1. FSV Mainz 05" },
+      "team2": { "name": "FC St. Pauli" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "11:30 GMT",
+      "team1": { "name": "Heidenheim" },
+      "team2": { "name": "Bayern Munich" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "11:30 GMT",
+      "team1": { "name": "Aston Villa" },
+      "team2": { "name": "Manchester United" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "06:30 GMT",
+      "team1": { "name": "Cagliari" },
+      "team2": { "name": "Pisa" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "09:00 GMT",
+      "team1": { "name": "Sassuolo" },
+      "team2": { "name": "Torino" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "12:00 GMT",
+      "team1": { "name": "Fiorentina" },
+      "team2": { "name": "Udinese" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "14:45 GMT",
+      "team1": { "name": "Genoa" },
+      "team2": { "name": "Atalanta" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "08:00 GMT",
+      "team1": { "name": "Girona" },
+      "team2": { "name": "Atlético Madrid" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "10:15 GMT",
+      "team1": { "name": "Villarreal" },
+      "team2": { "name": "Barcelona" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "12:30 GMT",
+      "team1": { "name": "Elche" },
+      "team2": { "name": "Rayo Vallecano" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "15:00 GMT",
+      "team1": { "name": "Real Betis" },
+      "team2": { "name": "Getafe" }
+    },
+    {
+      "date": "2025-12-21",
+      "heure": "14:00 GMT",
+      "team1": { "name": "Morocco" },
+      "team2": { "name": "Comoros" }
+    }
   ]
 }
