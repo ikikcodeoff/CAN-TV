@@ -1,0 +1,15 @@
+{
+  "live": {
+    "twitch_url": "https://www.twitch.tv/ikikcode_tv",
+    "team1": { "name": "GENOA", "logo": "https://ssl.gstatic.com/onebox/media/sports/logos/85QkdgIOpAt-_EuQ9mKTPg_96x96.png", "score": 1 },
+    "team2": { "name": "INTER MILAN", "logo": "https://ssl.gstatic.com/onebox/media/sports/logos/l2-icwsMhIvsbRw8AwC1yg_96x96.png", "score": 0 }
+  },
+  "upcoming": [
+    { "date": "15/12/2025", "heure": "18:00", "team1": { "name": "Maroc", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg" }, "team2": { "name": "Algérie", "logo": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg" } },
+    { "date": "16/12/2025", "heure": "21:00", "team1": { "name": "Égypte", "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg" }, "team2": { "name": "Tunisie", "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg" } }
+  ],
+  "infos": [
+    "Bienvenue sur IKIKCODE TV ! Suivez tous les matchs de la CAN 2025.",
+    "Restez connectés pour les dernières nouvelles du tournoi."
+  ]
+}
